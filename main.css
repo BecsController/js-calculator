@@ -1,6 +1,28 @@
 body {
-  align: center;
   font-family: 'Almendra', tahoma, lucida sans-serif, arial, sans-serif;
   background-color: #fff;
-  margin: 5em;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 3em;
+}
+.calculator{
+  border: solid 1em #F39C12;
+  padding: 1em;
+  width: 18em;
+}
+.display{
+  height: 3em;
+  width: 15em;
+}
+button{
+  height: 3em;
+  width: 3em;
+  padding: .15em;
+  border-radius: 5%;
+}
+.wide{
+  width: 6em;
+}
+input{
+  width: inherit;
 }
