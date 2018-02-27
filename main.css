@@ -7,22 +7,32 @@ body {
 }
 .calculator{
   border: solid 1em #F39C12;
-  padding: 1em;
+  padding: .75em 1em;
   width: 18em;
+  border-radius: 5%;
+  box-shadow: 13px 18px 4px 1px rgba(117,117,117,1);
+  background-color: #99BCDF;
 }
 .display{
   height: 3em;
   width: 15em;
+  box-shadow: 5px 4px 24px -2px rgba(0,0,0,1);
+  margin-bottom: .15em;
 }
 button{
   height: 3em;
   width: 3em;
   padding: .15em;
   border-radius: 5%;
+  box-shadow: 5px 4px 24px -2px rgba(0,0,0,1);
 }
 .wide{
   width: 6em;
 }
 input{
   width: inherit;
+}
+input.input-box, textarea {
+  background: #000;
+  color: #fff;
 }
