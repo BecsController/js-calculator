@@ -1,5 +1,5 @@
 body {
-  font-family: 'Almendra', tahoma, lucida sans-serif, arial, sans-serif;
+  font-family: 'Armata', tahoma, lucida sans-serif, arial, sans-serif;
   background-color: #fff;
   font-weight: bold;
   font-size: 1.5em;
@@ -29,16 +29,14 @@ button:hover {
 }
 #answer {
   background: #000;
-  color: #fff;
-  text-align: right;
-  padding-right: .25em;
+  color: #b3a900;
   height: 3em;
   width: 15em;
   box-shadow: 5px 4px 24px -2px rgba(0,0,0,1);
   margin-bottom: .25em;
   border-radius: 5%;
 }
-.ON, .C, .backspace {
+.C, .ON, .backspace {
   background-color: #a3a3c2;
 }
 .equal, .plus, .multiply, .minus, .square-root, .divide{
