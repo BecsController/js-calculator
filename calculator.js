@@ -21,6 +21,7 @@ function calculate (evt) {
   if (val === 'C') {
     temp = '';
     entries = [];
+    document.getElementById("answer").innerHTML = temp;
   }
   if (val === 'squared') {
     temp = (Math.sqrt(temp));
