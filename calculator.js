@@ -23,25 +23,24 @@ function calculate (evt) {
     entries = [];
     document.getElementById("answer").innerHTML = temp;
   }
-  if (val === 'squared') {
+  else if (val === 'squared') {
     temp = (Math.sqrt(temp));
     document.getElementById("answer").innerHTML = temp;
   }
-  if (val === 'back') {
+  else if (val === 'back') {
     temp = temp.slice(0, - 1);
     document.getElementById("answer").innerHTML = temp;
   }
 
-  if (val === '=') {
-    var answer = eval(entries.join(' '));
+  else if (val === '=') {
+    var answer = eval(entries.join(''));
     var compute = answer;
     document.getElementById("answer").innerHTML = compute;
-    temp = '';
-    entries = [];
+    temp = compute;
 
   } else {
     temp += val;
-    document.getElementById("answer").innerHTML = temp;
     entries.push(val);
+    document.getElementById("answer").innerHTML = temp;
   }
 }
