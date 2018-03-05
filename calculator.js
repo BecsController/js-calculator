@@ -31,6 +31,10 @@ function calculate (evt) {
     temp = temp.slice(0, - 1);
     document.getElementById("answer").innerHTML = temp;
   }
+  else if (val === 'start') {
+    temp = '0';
+    document.getElementById("answer").innerHTML = temp;
+  }
 
   else if (val === '=') {
     var answer = eval(entries.join(''));
