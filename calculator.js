@@ -18,15 +18,14 @@ var entries = [];  //set up empty array for calculation
 function calculate (evt) {
   var val = evt.target.id  //add button text to value
   if (val === 'C') {
-    temp = '';
+    temp = '';  //if id is C, wipe string and array and print string
     entries = [];
     document.getElementById("answer").innerHTML = temp;
   }
-  else if (val === 'squared') {
-    temp = (Math.sqrt(temp));
-    document.getElementById("answer").innerHTML = temp;
+  else if (val === 'squared') { //if id is squared, square root the string and push it's value to string
+    document.getElementById("answer").innerHTML = (Math.sqrt(temp));
   }
-  else if (val === 'back') {
+  else if (val === 'back') {  //if id is back, slice the last char off string
     temp = temp.slice(0, - 1);
     document.getElementById("answer").innerHTML = temp;
   }
