@@ -17,7 +17,6 @@ var entries = [];  //set up empty array for calculation
 
 function calculate (evt) {
   var val = evt.target.id  //add button text to value
-
   if (val === 'C') {
     temp = '';
     entries = [];
