@@ -35,9 +35,8 @@ function calculate (evt) {
 
   else if (val === '=') {
     var answer = eval(entries.join(''));
-    var compute = answer;
-    document.getElementById("answer").innerHTML = compute;
-    temp = compute;
+    document.getElementById("answer").innerHTML = answer;
+    temp = answer;
 
   } else {
     temp += val;
