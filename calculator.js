@@ -26,8 +26,7 @@ function calculate (evt) {
     document.getElementById("answer").innerHTML = (Math.sqrt(temp));
   }
   else if (val === 'back') {  //if id is back, slice the last char off string
-    temp = temp.slice(0, - 1);
-    document.getElementById("answer").innerHTML = temp;
+    document.getElementById("answer").innerHTML = temp.slice(0, - 1);
   }
   else if (val === 'start') {
     temp = '0';
